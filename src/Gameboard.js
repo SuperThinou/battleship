@@ -1,0 +1,3 @@
+class Gamboard {
+  constructor() {}
+}
