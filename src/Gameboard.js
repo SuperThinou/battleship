@@ -2,6 +2,7 @@ export default class Gamboard {
   constructor() {
     this.x = 10;
     this.y = 10;
+    this.ships = [];
   }
   placeShip() {
     const shipTypes = [
@@ -14,6 +15,7 @@ export default class Gamboard {
 
     for (const type of shipTypes) {
       const ship = new Ship(type.length);
+      this.ships.push(ship);
     }
   }
 }
