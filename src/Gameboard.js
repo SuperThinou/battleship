@@ -1,3 +1,3 @@
-class Gamboard {
+export default class Gamboard {
   constructor() {}
 }
