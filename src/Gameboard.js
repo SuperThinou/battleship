@@ -11,5 +11,9 @@ export default class Gamboard {
       { name: "Submarine", length: 3 },
       { name: "Patrol Boat", length: 2 },
     ];
+
+    for (const type of shipTypes) {
+      const ship = new Ship(type.length);
+    }
   }
 }
